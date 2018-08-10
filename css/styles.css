@@ -65,7 +65,7 @@ code {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-/*[class^="btns_cnt"] {
+[class^="btns_cnt"] {
   display: grid;
   grid-gap: var(--gap);
   grid-template-columns: var(--columns);
@@ -75,7 +75,7 @@ code {
   padding: 1rem 0;
 }
 
-[class^="dwnld_lnk"] {
+/*[class^="dwnld_lnk"] {
   background-color: #000;
   border-radius: 4px;
   box-shadow: 0 .25em .25em rgba(0, 0, 0, .3);
