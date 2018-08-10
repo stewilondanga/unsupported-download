@@ -110,7 +110,7 @@ code {
 
 /* Faking the OS buttons */
 
-/*[class^="fake_btn"] {
+[class^="fake_btn"] {
   font: inherit;
   color: #503660;
   background-color: #fff;
@@ -125,7 +125,7 @@ code {
   box-shadow: 0 .25em .25em rgba(0, 0, 0, .3);
 }
 
-[class^="fake_btn"]:hover, [class^="fake_btn"]:focus {
+/*[class^="fake_btn"]:hover, [class^="fake_btn"]:focus {
   color: #418cec;
   border-color: #418cec;
   box-shadow: 0 .5em .5em rgba(0, 0, 0, .4);
