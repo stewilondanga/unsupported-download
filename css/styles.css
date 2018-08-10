@@ -125,13 +125,13 @@ code {
   box-shadow: 0 .25em .25em rgba(0, 0, 0, .3);
 }
 
-/*[class^="fake_btn"]:hover, [class^="fake_btn"]:focus {
+[class^="fake_btn"]:hover, [class^="fake_btn"]:focus {
   color: #418cec;
   border-color: #418cec;
   box-shadow: 0 .5em .5em rgba(0, 0, 0, .4);
 }
 
-.os_iOS .fake_btn-os_iOS, .os_Android .fake_btn-os_Android {
+/*.os_iOS .fake_btn-os_iOS, .os_Android .fake_btn-os_Android {
   background-color: lightgreen;
 }
 
