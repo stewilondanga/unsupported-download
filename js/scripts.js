@@ -25,14 +25,14 @@ var detect_OS_set_HTML_class = (function() {
         return "Windows";
       }
 
-      /*if (/android/i.test(userAgent)) {
-    html.className += " os_Android";
-    return "Android";
-  }
+      if (/android/i.test(userAgent)) {
+        html.className += " os_Android";
+        return "Android";
+      }
 
-  // iOS detection from: http://stackoverflow.com/a/9039885/177710
+      // iOS detection from: http://stackoverflow.com/a/9039885/177710
 
-  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      /*if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
     html.className += " os_iOS";
     return "iOS";
   }
