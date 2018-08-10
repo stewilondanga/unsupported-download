@@ -131,11 +131,11 @@ code {
   box-shadow: 0 .5em .5em rgba(0, 0, 0, .4);
 }
 
-/*.os_iOS .fake_btn-os_iOS, .os_Android .fake_btn-os_Android {
+.os_iOS .fake_btn-os_iOS, .os_Android .fake_btn-os_Android {
   background-color: lightgreen;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
