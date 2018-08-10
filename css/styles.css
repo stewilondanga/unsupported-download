@@ -85,12 +85,12 @@ code {
   text-decoration: none;
 }
 
-/*[class^="dwnld_lnk"]:hover, [class^="dwnld_lnk"]:focus {
+[class^="dwnld_lnk"]:hover, [class^="dwnld_lnk"]:focus {
   transform: scale(1.1);
   box-shadow: 0 .35em .35em rgba(0, 0, 0, .4);
 }
 
-[class^="dwnld_img"] {
+/*[class^="dwnld_img"] {
   display: block;
   margin: 0 auto;
   width: 135px;
