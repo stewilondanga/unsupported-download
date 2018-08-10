@@ -1,12 +1,15 @@
-/*body {
-  text-align: center;
-  font-family: courier;
-  background-image: url("../assets/image.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: hsl(269, 19%, 30%);
+  background-color: hsla(32, 100%, 85%, .35);
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.4'/%3E%3C/filter%3E%3C/defs%3E%3C!-- %3Cpath filter='url(%23a)' opacity='.3' d='M0 0h1200v256H0z'/%3E--%3E%3Crect filter='url(%23a)' opacity='.3' width='100%25' height='100%25'/%3E%3C/svg%3E");
 }
 
-.my_social {
+/*.my_social {
   position: absolute;
   top: 25px;
   left: 25px;
@@ -35,17 +38,6 @@
 
 *, ::before, ::after {
   box-sizing: inherit;
-}
-
-body {
-  font-family: sans-serif;
-  line-height: 1.5;
-  margin: 1rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: hsl(269, 19%, 30%);
-  background-color: hsla(32, 100%, 85%, .35);
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.4'/%3E%3C/filter%3E%3C/defs%3E%3C!-- %3Cpath filter='url(%23a)' opacity='.3' d='M0 0h1200v256H0z'/%3E--%3E%3Crect filter='url(%23a)' opacity='.3' width='100%25' height='100%25'/%3E%3C/svg%3E");
 }
 
 h1 {
@@ -118,7 +110,7 @@ code {
 
 /* Faking the OS buttons */
 
-[class^="fake_btn"] {
+/*[class^="fake_btn"] {
   font: inherit;
   color: #503660;
   background-color: #fff;
