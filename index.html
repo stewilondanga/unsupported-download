@@ -10,49 +10,48 @@
 <body>
 
   <div class="my_social">
-      <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
+    <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
           <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
         </a>
-      <a href="https://stewilondanga.github.io/" class="social">
+    <a href="https://stewilondanga.github.io/" class="social">
           <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
         </a>
-      <a href="https://twitter.com/stew_ilondanga" class="social">
+    <a href="https://twitter.com/stew_ilondanga" class="social">
           <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
         </a>
-    </div>
+  </div>
 
-    <!-- For sloppy testing: Add os_iOS or os_Android to <main> -->
+  <!-- For sloppy testing: Add os_iOS or os_Android to <main> -->
 
-    <!-- Better to use a real device though -->
+  <!-- Better to use a real device though -->
 
-    <main class=os_iOS-or-os_Android>
+  <main class=os_iOS-or-os_Android>
 
-      <h1>Hide an unsupported OS download button on mobile</h1>
+    <h1>Hide an unsupported OS download button on mobile</h1>
 
-      <section class=btns_cnt-downloads>
+    <section class=btns_cnt-downloads>
 
-        <a class=dwnld_lnk-apple href>
+      <a class=dwnld_lnk-apple href>
           <svg class=dwnld_img-apple aria-label="Apple app: Download from the App Store"><use xlink:href="#btn_app_store"></use></svg>
         </a>
 
-        <a class=dwnld_lnk-android href>
+      <a class=dwnld_lnk-android href>
           <svg class=dwnld_img-google aria-label="Android app: Get it on Google Play"><use xlink:href="#btn_google_play"></use></svg>
         </a>
 
-      </section>
+    </section>
 
-      <p>Detection script adds <code>.os_iOS</code> or <code>.os_Android</code> to the <code>html</code> element.<br>
-        Buttons below fake that detection purely for visualisation purposes:
-      </p>
+    <p>Detection script adds <code>.os_iOS</code> or <code>.os_Android</code> to the <code>html</code> element.<br> Buttons below fake that detection purely for visualisation purposes:
+    </p>
 
-      <section class=btns_cnt-fakes>
-        <button class=fake_btn-os_iOS>Fake iOS</button>
-        <button class=fake_btn-os_Android>Fake Android</button>
-      </section>
+    <section class=btns_cnt-fakes>
+      <button class=fake_btn-os_iOS>Fake iOS</button>
+      <button class=fake_btn-os_Android>Fake Android</button>
+    </section>
 
-    </main>
+  </main>
 
-    <svg class=visually-hidden id=buttons-appStore-googlePlay>
+  <svg class=visually-hidden id=buttons-appStore-googlePlay>
       <defs>
 
         <symbol id="btn_app_store" width="135" height="40" fill="#FFF" viewBox="0 0 135 40">
