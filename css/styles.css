@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,128 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+:root {
+  --columns: 1fr;
+  --gap: 1.5rem;
+}
+
+@media (min-width: 20em) {
+  :root {
+    --columns: 1fr 1fr;
+    --gap: 1rem;
+  }
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: hsl(269, 19%, 30%);
+  background-color: hsla(32, 100%, 85%, .35);
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.4'/%3E%3C/filter%3E%3C/defs%3E%3C!-- %3Cpath filter='url(%23a)' opacity='.3' d='M0 0h1200v256H0z'/%3E--%3E%3Crect filter='url(%23a)' opacity='.3' width='100%25' height='100%25'/%3E%3C/svg%3E");
+}
+
+h1 {
+  font-weight: 100;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+p {
+  text-align: center;
+  margin: 1rem 0 .5rem;
+}
+
+code {
+  font-size: 16px;
+  text-shadow: 1px 1px #fff;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+[class^="btns_cnt"] {
+  display: grid;
+  grid-gap: var(--gap);
+  grid-template-columns: var(--columns);
+  justify-content: center;
+  max-width: 330px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+[class^="dwnld_lnk"] {
+  background-color: #000;
+  border-radius: 4px;
+  box-shadow: 0 .25em .25em rgba(0, 0, 0, .3);
+  transition: all 0.3s ease-out;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+[class^="dwnld_lnk"]:hover, [class^="dwnld_lnk"]:focus {
+  transform: scale(1.1);
+  box-shadow: 0 .35em .35em rgba(0, 0, 0, .4);
+}
+
+[class^="dwnld_img"] {
+  display: block;
+  margin: 0 auto;
+  width: 135px;
+  height: 40px;
+}
+
+/* Hide unsupported button */
+
+:root[class^="os_"] .btns_cnt-downloads {
+  --columns: 1fr;
+  --gap: 1rem;
+}
+
+.os_Android .dwnld_lnk-apple, .os_iOS .dwnld_lnk-android {
+  display: none;
+}
+
+/* Faking the OS buttons */
+
+[class^="fake_btn"] {
+  font: inherit;
+  color: #503660;
+  background-color: #fff;
+  min-width: 98px;
+  border: 2px solid hsl(269, 19%, 30%);
+  padding: .5rem 1rem .25rem;
+  border-radius: 4px;
+  transition: all 0.3s ease-out;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  box-shadow: 0 .25em .25em rgba(0, 0, 0, .3);
+}
+
+[class^="fake_btn"]:hover, [class^="fake_btn"]:focus {
+  color: #418cec;
+  border-color: #418cec;
+  box-shadow: 0 .5em .5em rgba(0, 0, 0, .4);
+}
+
+.os_iOS .fake_btn-os_iOS, .os_Android .fake_btn-os_Android {
+  background-color: lightgreen;
 }
 
 .containers {
