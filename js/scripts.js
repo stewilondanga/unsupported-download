@@ -1,4 +1,4 @@
-/*var navigate = (function() {
+var navigate = (function() {
   $('.dd').toggle();
   $('.dd_btn').click(function() {
     var dataName = $(this).attr('data-name');
@@ -11,7 +11,7 @@
 // Purposefully ES5
 // Based on: https://stackoverflow.com/questions/21741841/detecting-ios-android-operating-system
 
-var detect_OS_set_HTML_class = (function() {
+/*var detect_OS_set_HTML_class = (function() {
 
   "use strict";
 
