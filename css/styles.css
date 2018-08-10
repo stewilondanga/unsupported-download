@@ -57,7 +57,7 @@ code {
   text-shadow: 1px 1px #fff;
 }
 
-/*.visually-hidden {
+.visually-hidden {
   position: absolute !important;
   height: 1px;
   width: 1px;
@@ -65,7 +65,7 @@ code {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-[class^="btns_cnt"] {
+/*[class^="btns_cnt"] {
   display: grid;
   grid-gap: var(--gap);
   grid-template-columns: var(--columns);
