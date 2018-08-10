@@ -75,7 +75,7 @@ code {
   padding: 1rem 0;
 }
 
-/*[class^="dwnld_lnk"] {
+[class^="dwnld_lnk"] {
   background-color: #000;
   border-radius: 4px;
   box-shadow: 0 .25em .25em rgba(0, 0, 0, .3);
@@ -85,7 +85,7 @@ code {
   text-decoration: none;
 }
 
-[class^="dwnld_lnk"]:hover, [class^="dwnld_lnk"]:focus {
+/*[class^="dwnld_lnk"]:hover, [class^="dwnld_lnk"]:focus {
   transform: scale(1.1);
   box-shadow: 0 .35em .35em rgba(0, 0, 0, .4);
 }
