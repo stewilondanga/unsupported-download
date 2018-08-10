@@ -20,12 +20,12 @@ var detect_OS_set_HTML_class = (function() {
 
       // Windows Phone must come first because its UA also contains "Android"
 
-      /*if (/windows phone/i.test(userAgent)) {
-    // html.className += " os_Windows";
-    return "Windows";
-  }
+      if (/windows phone/i.test(userAgent)) {
+        // html.className += " os_Windows";
+        return "Windows";
+      }
 
-  if (/android/i.test(userAgent)) {
+      /*if (/android/i.test(userAgent)) {
     html.className += " os_Android";
     return "Android";
   }
