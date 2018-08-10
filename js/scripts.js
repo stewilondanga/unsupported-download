@@ -47,7 +47,7 @@ var detect_OS_set_HTML_class = (function() {
 /* //Faking-up the OS buttons
    Buttons add .os_iOS or .os_Android to <html> */
 
-/*const fake_OS_detection_set_HTML_class_from_button = (function() {
+const fake_OS_detection_set_HTML_class_from_button = (function() {
 
   "use strict";
 
