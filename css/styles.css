@@ -20,6 +20,11 @@ body {
   box-sizing: inherit;
 }
 
+:root {
+  --columns: 1fr;
+  --gap: 1.5rem;
+}
+
 /*.my_social {
   position: absolute;
   top: 25px;
@@ -33,11 +38,6 @@ body {
 
 .my_social a img {
   height: 1.5em;
-}
-
-:root {
-  --columns: 1fr;
-  --gap: 1.5rem;
 }
 
 h1 {
